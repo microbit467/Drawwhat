@@ -1,2 +1,2 @@
-# Drawwhat
-Drawhat?
+# DrawWhat
+Simple canvas drawing experiment.
