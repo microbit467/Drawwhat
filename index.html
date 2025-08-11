@@ -24,6 +24,9 @@
       drawing = true;
       ctx.beginPath();
       ctx.moveTo(e.offsetX, e.offsetY);
+      // Draw a dot in case of a click without movement
+      ctx.lineTo(e.offsetX, e.offsetY);
+      ctx.stroke();
     });
 
     canvas.addEventListener('mousemove', e => {
